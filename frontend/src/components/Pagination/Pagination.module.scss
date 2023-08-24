@@ -1,0 +1,17 @@
+.pagination {
+  :global {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    .page-bullet {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 24px;
+      height: 24px;
+      &.active {
+        border: 1px solid;
+      }
+    }
+  }
+}

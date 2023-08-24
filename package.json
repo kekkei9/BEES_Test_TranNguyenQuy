@@ -1,0 +1,20 @@
+{
+  "name": "bees_test_trannguyenquy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "logic-test",
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "logic-test:start": "yarn workspace logic-test start",
+    "frontend:start": "yarn workspace frontend start",
+    "backend:start": "yarn workspace backend start",
+    "backend:dev": "yarn workspace backend dev"
+  },
+  "author": "",
+  "license": "ISC"
+}

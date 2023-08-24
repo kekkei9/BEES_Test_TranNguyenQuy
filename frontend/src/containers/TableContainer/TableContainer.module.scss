@@ -1,0 +1,10 @@
+.table-container {
+  :global {
+    width: 970px;
+    .interactive-panel {
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
